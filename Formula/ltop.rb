@@ -1,26 +1,26 @@
 class Ltop < Formula
   desc "btop-styled TUI monitor for local network traffic, LAN neighbours and disk I/O"
   homepage "https://github.com/uMaj35ty/ltop"
-  version "0.2.4"
+  version "0.2.5"
 
   on_macos do
     on_arm do
-      url "https://github.com/uMaj35ty/ltop/releases/download/v0.2.4/ltop-0.2.4-aarch64-darwin.tar.gz"
-      sha256 "c821e29d1b51393930c624b7ed06affa320edfac896b31dae555e30b4043334e"
+      url "https://github.com/uMaj35ty/ltop/releases/download/v0.2.5/ltop-0.2.5-aarch64-darwin.tar.gz"
+      sha256 "5108d23747792087d3f0073d3c76908e1ec1804973c046f08814acd516c51cad"
     end
     on_intel do
-      url "https://github.com/uMaj35ty/ltop/releases/download/v0.2.4/ltop-0.2.4-x86_64-darwin.tar.gz"
-      sha256 "123acbf68763170b39e9046630b5d7b6d13775a6e008796ed272b04d55a8383d"
+      url "https://github.com/uMaj35ty/ltop/releases/download/v0.2.5/ltop-0.2.5-x86_64-darwin.tar.gz"
+      sha256 "347e8a5a4b9524166ae43ff85c4d6f2cea234b568b42a547a7af03c3a03e0341"
     end
   end
   on_linux do
     on_arm do
-      url "https://github.com/uMaj35ty/ltop/releases/download/v0.2.4/ltop-0.2.4-aarch64-linux.tar.gz"
-      sha256 "31d56c1b535ccd521beeb396e896c44e3f74b47863c8dcf48d327575d3631e15"
+      url "https://github.com/uMaj35ty/ltop/releases/download/v0.2.5/ltop-0.2.5-aarch64-linux.tar.gz"
+      sha256 "289dcaeb254f9c2bbb2aca005415b1ec69c9058f16e154bb16d01b9f12ba6c00"
     end
     on_intel do
-      url "https://github.com/uMaj35ty/ltop/releases/download/v0.2.4/ltop-0.2.4-x86_64-linux.tar.gz"
-      sha256 "48e053aa4f31fa2b0d64e054dda0ab7845066a0e6ee1e4466cdb468259b89831"
+      url "https://github.com/uMaj35ty/ltop/releases/download/v0.2.5/ltop-0.2.5-x86_64-linux.tar.gz"
+      sha256 "5ba29202e526623353fb5ff718e343aeb93bb5ea4ed7b28cabfd278d4b1ea1aa"
     end
   end
 
